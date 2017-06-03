@@ -36,8 +36,7 @@ default: &default
 
 ### For New Projects
 
-Have a look at this article on setting up a new rails project, then use the
-steps above to enable this plug-in.
+Have a look at this article on setting up a new rails project, then use the steps above to enable this plug-in.
 
 [How to Write a Ruby on Rails App for STEEM](https://steemit.com/radiator/@inertia/how-to-write-a-ruby-on-rails-app-for-steem)
 
@@ -52,10 +51,8 @@ steps above to enable this plug-in.
 
 ## Get in touch!
 
-If you're using sbds-rails, I'd love to hear from you.  Drop me a line and tell
-me what you think!  I'm @inertia on STEEM.
+If you're using sbds-rails, I'd love to hear from you.  Drop me a line and tell me what you think!  I'm @inertia on STEEM.
   
 ## License
 
-I don't believe in intellectual "property".  If you do, consider sbds-rails as
-licensed under a Creative Commons [![CC0](http://i.creativecommons.org/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/) License.
+I don't believe in intellectual "property".  If you do, consider sbds-rails as licensed under a Creative Commons [![CC0](http://i.creativecommons.org/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/) License.
