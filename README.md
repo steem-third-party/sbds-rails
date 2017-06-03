@@ -15,7 +15,7 @@ Assuming you already have an existing rails project,
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sbds-rails'
+gem 'sbds-rails', require: 'sbds'
 ```
 
 And then execute:
