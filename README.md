@@ -10,9 +10,7 @@ This `gem` allows you to access an `sdbs` instance with `ActiveRecord`.
 
 ### For Existing Rails Projects
 
-Assuming you already have an existing rails project,
-
-Add this line to your application's Gemfile:
+Assuming you already have an existing rails project, add this line to your application's Gemfile:
 
 ```ruby
 gem 'sbds-rails', require: 'sbds'
