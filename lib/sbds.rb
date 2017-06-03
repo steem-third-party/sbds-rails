@@ -1,4 +1,4 @@
-require "sbds/engine"
+require 'sbds/engine'
 
 module Sbds
 end

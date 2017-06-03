@@ -1,5 +1,5 @@
 module Sbds
   class CoreBlock < ActiveRecord::Base
-    def self.table_name_prefix; 'sbds_'; end
+    self.table_name = 'sbds_core_blocks'
   end
 end

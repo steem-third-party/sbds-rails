@@ -1,8 +1,6 @@
 module Sbds
   module ActsAsTransaction
     def self.included(base)
-      def base.table_name_prefix; 'sbds_tx_'; end
-      
       def base.default_scope
         order(timestamp: :asc)
       end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sbds-rails (0.1.0)
+    sbds-rails (0.1.1)
       rails (~> 5.1, >= 5.1.1)
 
 GEM
