@@ -1,6 +1,6 @@
 # Steem Blockchain Data Service Rails Engine
 
-Ruby on Rails Engine for accessing Steem Blockchain Data Service.
+[Ruby on Rails Engine for accessing Steem Blockchain Data Service.](https://github.com/steem-third-party/sbds-rails)
 
 The [sbds](https://github.com/steemit/sbds) project is the official database layer for accessing a local, read-only version of the Steem blockchain.  It is developed and maintained by Steemit, Inc. and can be confugured to use SQLite, Postgres, and MySQL.
 
