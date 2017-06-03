@@ -36,7 +36,7 @@ task :build do
 end
 
 task :push do
-  exec "gem push sbds-rails-#{Sbd::VERSION}.gem"
+  exec "gem push sbds-rails-#{Sbds::VERSION}.gem"
 end
 
 # We're not going to yank on a regular basis, but this is how it's done if you

@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     sbds-rails (0.1.0)
-      rails (~> 5.1.1)
+      rails (~> 5.1, >= 5.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -124,7 +124,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mysql2
+  mysql2 (~> 0.4, >= 0.4.6)
   pry (~> 0.10.3)
   sbds-rails!
   simplecov (~> 0.11.2)
