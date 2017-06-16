@@ -6,6 +6,21 @@ The [sbds](https://github.com/steemit/sbds) project is the official database lay
 
 This `gem` allows you to access an `sdbs` instance with `ActiveRecord`.
 
+## New Features
+
+* Added `sqlite3` and `pg` drivers.
+* Added scopes to simplify lookups for related transactions.  E.g.:
+  * Get a specific post:
+    * `post = Sbds::Comment.find_by(author: 'inertia', permlink: 'one-post-at-a-time')`
+  * Get voting transactions for the post.
+    * `post.votes`
+    * `post.upvotes`
+    * `post.downvotes`
+    * `post.unvotes`
+  * Get the comment options for the post.
+    * `post.options`
+    * `post.options.beneficiaries`
+
 ## Installation
 
 ### For Existing Rails Projects
@@ -81,7 +96,7 @@ Have a look at this article on setting up a new rails project, then use the step
 * To run tests with parallelization and local code coverage:
   * `HELL_ENABLED=true rake`
   
-![](http://i.imgur.com/0STlATl.png)
+![](http://i.imgur.com/fCtba3M.png)
 
 ## Get in touch!
 
