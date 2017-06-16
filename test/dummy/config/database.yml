@@ -1,13 +1,10 @@
-# MySQL. Versions 5.1.10 and up are supported.
+# SQLite.
 #
-# Install the MySQL driver
-#   gem install mysql2
-#
-# Ensure the MySQL gem is defined in your Gemfile
-#   gem 'mysql2'
-#
-# And be sure to use new-style password hashing:
-#   http://dev.mysql.com/doc/refman/5.7/en/old-client.html
+# default: &default
+#   adapter: sqlite3
+#   database: sbds.sqlite3
+
+# MySQL.
 #
 default: &default
   adapter: mysql2
@@ -17,6 +14,17 @@ default: &default
   password: steemit
   host: sbds-mysql.steemdata.com
   database: sbds
+  reconnect: true
+
+# PostgreSQL.
+#
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+#   database: sbds
+#   pool: 5
+#   username: sbds
+#   password:
 
 development:
   <<: *default

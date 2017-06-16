@@ -21,6 +21,20 @@ And then execute:
 $ bundle install
 ```
 
+### SQLite
+
+This assumes that the database is stored as `db/sdbs.sqlite3` folder of your `rails` project.
+
+Edit `database.yml`:
+
+```yaml
+default: &default
+  adapter: sqlite3
+  database: sbds.sqlite3
+```
+
+### MySQL
+
 Edit `database.yml` and use your own `sbds` database or try out @furion's:
 
 ```yaml
@@ -32,6 +46,26 @@ default: &default
   password: steemit
   host: sbds-mysql.steemdata.com
   database: sbds
+  reconnect: true
+```
+
+### PostgreSQL
+
+```bash
+$ createuser sbds -d --no-superuser
+$ createdb -O sbds sbds
+```
+
+Edit `database.yml`:
+
+```yaml
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  database: sbds
+  pool: 5
+  username: sbds
+  password:
 ```
 
 ### For New Projects
