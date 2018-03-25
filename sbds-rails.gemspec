@@ -16,10 +16,12 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.add_dependency 'rails', '~> 5.1', '>= 5.1.1'
-  
+  s.add_dependency 'haml', '~> 5.0', '>= 5.0.1'
+  s.add_dependency 'will_paginate', '~> 3.1', '>= 3.1.5'
+
   s.add_development_dependency 'pry', '~> 0.10.3'
   s.add_development_dependency 'simplecov', '~> 0.11.2'
   s.add_development_dependency 'mysql2', '~> 0.4', '>= 0.4.6'
   s.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.13'
-  s.add_development_dependency 'pg', '~> 0.20.0', '>= 0.20'
+  s.add_development_dependency 'pg', '~> 0.20', '>= 0.20.0'
 end
